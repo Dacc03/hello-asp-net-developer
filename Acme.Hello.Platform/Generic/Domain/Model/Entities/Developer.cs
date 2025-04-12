@@ -41,5 +41,5 @@ public class Developer
     /// </summary>
     /// <returns> true if either name is empty; otherwise, false</returns>
     
-    public bool IsNameEmpty() => !string.IsNullOrWhiteSpace(FirstName) || string.IsNullOrWhiteSpace(LastName);
+    public bool IsAnyNameEmpty() => !string.IsNullOrWhiteSpace(FirstName) || string.IsNullOrWhiteSpace(LastName);
 }
